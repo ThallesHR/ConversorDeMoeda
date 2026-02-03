@@ -19,42 +19,42 @@ public class Main {
                 case "1":
                     System.out.println("escolha um valor valido");
                     String valor = leitura.nextLine();
-                    Moeda resultado = conversor.ConverteMoeda("USD", "ARS", valor);
+                     Moeda resultado = conversor.ConverteMoeda("USD", "ARS", valor);
                     System.out.println("Resultados da sua conversão são de:");
                     System.out.println(resultado.conversion_result());
                     break;
                 case "2":
                     System.out.println("escolha um valor valido");
-                    String valor = leitura.nextLine();
-                    Moeda resultado = conversor.ConverteMoeda("ARS", "USD", valor);
+                     valor = leitura.nextLine();
+                     resultado = conversor.ConverteMoeda("ARS", "USD", valor);
                     System.out.println("Resultados da sua conversão são de:");
                     System.out.println(resultado.conversion_result());
                     break;
                 case "3":
                     System.out.println("escolha um valor valido");
-                    String valor = leitura.nextLine();
-                    Moeda resultado = conversor.ConverteMoeda("USD", "BRL", valor);
+                     valor = leitura.nextLine();
+                     resultado = conversor.ConverteMoeda("USD", "BRL", valor);
                     System.out.println("Resultados da sua conversão são de:");
                     System.out.println(resultado.conversion_result());
                     break;
                 case "4":
                     System.out.println("escolha um valor valido");
-                    String valor = leitura.nextLine();
-                    Moeda resultado = conversor.ConverteMoeda("BRL", "USD", valor);
+                     valor = leitura.nextLine();
+                     resultado = conversor.ConverteMoeda("BRL", "USD", valor);
                     System.out.println("Resultados da sua conversão são de:");
                     System.out.println(resultado.conversion_result());
                     break;
                 case "5":
                     System.out.println("escolha um valor valido");
-                    String valor = leitura.nextLine();
-                    Moeda resultado = conversor.ConverteMoeda("USD", "COP", valor);
+                     valor = leitura.nextLine();
+                     resultado = conversor.ConverteMoeda("USD", "COP", valor);
                     System.out.println("Resultados da sua conversão são de:");
                     System.out.println(resultado.conversion_result());
                     break;
                 case "6":
                     System.out.println("escolha um valor valido");
-                    String valor = leitura.nextLine();
-                    Moeda resultado = conversor.ConverteMoeda("COP", "USD", valor);
+                     valor = leitura.nextLine();
+                     resultado = conversor.ConverteMoeda("COP", "USD", valor);
                     System.out.println("Resultados da sua conversão são de:");
                     System.out.println(resultado.conversion_result());
             }
